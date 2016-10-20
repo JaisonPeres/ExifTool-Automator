@@ -1,0 +1,4 @@
+for f in "$@"
+do 
+  /usr/local/bin/exiftool -ProjectionType="equirectangular" -artist="me" "$f"
+done
